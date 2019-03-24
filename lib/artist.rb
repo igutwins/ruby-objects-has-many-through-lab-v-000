@@ -19,7 +19,7 @@ attr_accessor :name
   end
 
   def genres
-    songs.select {|s| s.genre}
+    songs.map {|s| s.genre}
   end
 
 end
