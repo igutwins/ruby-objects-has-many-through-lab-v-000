@@ -21,6 +21,6 @@ attr_accessor :name
 
   def genres
     songs.collect {|s| s.genre}
-  end 
+  end
 
 end
