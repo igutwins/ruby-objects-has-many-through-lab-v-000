@@ -12,6 +12,7 @@ attr_accessor :name
   def new_song(name)
     song = Song.new(name)
     song.artist = self
+    song
   end
 
 end
