@@ -19,4 +19,8 @@ attr_accessor :name
     Appointment.all.select {|a| a.patient == self}
   end
 
+  def doctors
+    appointments.map {|d| d.doctor}
+  end
+
 end
