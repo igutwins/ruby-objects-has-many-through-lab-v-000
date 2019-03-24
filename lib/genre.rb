@@ -1,5 +1,5 @@
 def Genre
-  attr_accessor :name
+attr_accessor :name
 @@all = []
 
   def initialize(name)
@@ -11,4 +11,4 @@ def Genre
     @@all
   end
 
-end 
+end
