@@ -9,4 +9,8 @@ attr_accessor :name
     @@all
   end
 
+  def new_song(name)
+    Song.new(name)
+  end
+
 end
