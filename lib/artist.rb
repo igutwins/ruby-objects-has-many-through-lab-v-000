@@ -19,7 +19,7 @@ attr_accessor :name
   end
 
   def genres
-    songs.collect {|s| s.genre}
+    songs.select {|s| s.genre}
   end
 
 end
