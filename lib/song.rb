@@ -4,7 +4,7 @@ attr_accessor :name, :genre, :artist
 
   def initialize(name, genre, artist)
     @name = name
-    @genre = Genre.new(genre)
+    @genre = genre
     @artist = artist
     @@all << self
   end
