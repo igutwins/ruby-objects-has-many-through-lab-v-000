@@ -6,4 +6,8 @@ attr_accessor :name, :genre, :artist
     @genre = genre
   end
 
+def self.all
+
+end
+
 end
