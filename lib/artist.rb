@@ -17,7 +17,7 @@ attr_accessor :name
   end
 
   def songs
-    Songs.all.collect {|s| s.artist == self}
+    Song.all.collect {|s| s.artist == self}
   end
 
   def genres
